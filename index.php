@@ -4,9 +4,7 @@
 	<title>Vault-Tec Chat</title>
 	<link rel="icon" type="text/css" href="img/favicon.png">
 	<link rel="stylesheet" href="style.css">
-	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleBS.css">
 </head>
 <body>
     <div class=col-xs-4></div>
