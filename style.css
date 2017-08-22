@@ -93,10 +93,12 @@ audio {
 }
 @media screen and (max-width: 450px){
   .col-xs-2 {
-    width: 50%;
+    right: 25px;
+    width: 45%;
   }
   .col-xs-6{
-    width: 50%;
+    right: 25px;
+    width: 55%;
   }
   .Smenu{
     margin-top: 50px;
@@ -109,21 +111,24 @@ audio {
     width: 100%;
   }
   ul {
+  	width: 100%;
     margin-top: 30px; 
-    margin-right: 0px;
   }
   li a {
-    padding: 22px 50px;
+    padding: 22px;
     font-size: 130%;
   }
+  li {
+ 	text-align: left; 	
+  } 
   #textM { 
-    width: 80%;
+    width: 70%;
     height: 39px;
     border-radius: 0px 0px 0px 10px;
   }
   #enterM {
     height: 39px;
-    width: 18%;
+    width: 27%;
     border-radius: 0px 0px 10px 0px;
   }
 
