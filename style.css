@@ -63,6 +63,7 @@ li a:hover {
      color: #2a7d37;
 }
 .Smenu {
+   width: 100%;
    color: #73ce81;
    border: 3px solid #73ce81;
    border-radius: 10px;
@@ -84,6 +85,7 @@ audio {
     border-style: solid;
 }
 .Smenuc {
+   width: 100%;
    color: #73ce81;
    border: 3px solid #73ce81;
    border-radius: 10px 10px 0px 0px;
@@ -102,13 +104,11 @@ audio {
   }
   .Smenu{
     margin-top: 50px;
-    width: 100%;
     height: 440px;
   }
   .Smenuc{
     margin-top: 50px;
     height: 390px;
-    width: 100%;
   }
   ul {
   	width: 100%;
@@ -116,7 +116,7 @@ audio {
   }
   li a {
     padding: 22px;
-    font-size: 130%;
+    font-size: 120%;
   }
   li {
  	text-align: left; 	
@@ -137,7 +137,6 @@ audio {
   .Smenuc{
     margin-top: 90px;
     height: 304px;
-    width: 100%;
   }
   .Smenu{
     margin-top: 90px;
@@ -173,13 +172,11 @@ audio {
   }
   .Smenu{
     margin-top: 130px;
-    width: 100%;
     height: 412px;
   }
   .Smenuc{
     margin-top: 130px;
     height: 375px;
-    width: 100%;
   }
   ul {
     margin-top: 130px; 
@@ -205,14 +202,12 @@ audio {
     margin-left: 300px;
   }
   .Smenu{
-    margin-top: 200px;
-    width: 100%;
+    margin-top: 200px;;
     height: 562px;
   }
   .Smenuc{
     margin-top: 200px;
     height: 510px;
-    width: 100%;
   }
   ul {
     margin-top: 200px; 
