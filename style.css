@@ -132,18 +132,39 @@ audio {
 }
 @media screen and (min-width: 451px) and (max-width: 1050px){
   .Smenuc{
-    margin-top: 110px;
-    height: 183px;
+    margin-top: 90px;
+    height: 304px;
+    width: 772px;
+  }
+  .Smenu{
+    margin-top: 90px;
+    height: 340px;
+  }
+  .col-xs-2 {
+    right: 10px;
+    width: 20%;
+  }
+  .col-xs-6{
+    right: 10px;
+    width: 80%;
+  }
+  ul {
+    margin-top: 90px; 
+  }
+  li a { 
+    padding: 3px 0px;
+    font-size:150%;
   }
   #textM {
-    width: 580px;
+    width: 702px;
     border-radius: 0px 0px 0px 10px;
   }
   #enterM {
+    width: 65px;
     border-radius: 0px 0px 10px 0px;
   }
 }
-@media screen and (min-width: 1050px) and (max-width: 1800px){
+@media screen and (min-width: 1050px) and (max-width: 1700px){
   .col-xs-2 {
     margin-left: 200px;
   }
@@ -173,9 +194,10 @@ audio {
   }
   #enterM {
     border-radius: 0px 0px 10px 0px;
+    max-width:50px; 
   }
 }
-@media screen and (min-width: 1801px){
+@media screen and (min-width: 1701px){
   .col-xs-2 {
     margin-left: 300px;
   }
