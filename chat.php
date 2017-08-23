@@ -13,6 +13,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+
     <link rel="icon" type="text/css" href="img/favicon.png">
 
     <link rel="stylesheet" href="style.css">
@@ -21,22 +23,20 @@
 
 </head>
 
-<body><br><br><br><br>
-  <div class=col-xs-2></div>
+<body>
   <div class=col-xs-2>
     <ul>
-      <li><a class="active" href=""><h4>Chat</h4></a></li>
-      <li><a href="audio.php"><h4>Audio</h4></a></li>
-      <li><a href="options.php"><h4>Options</h4></a></li>
+      <li><a class="active" href="">Chat</a></li>
+      <li><a href="audio.php">Audio</a></li>
+      <li><a href="options.php">Options</a></li>
     </ul>
   </div>
-    <div class=col-xs-6>
+    <div class="col-xs-6">
       <div class="inp">
         <p class="Smenuc"></p>
-        <input style="width: 580px; border-radius: 0px 0px 0px 10px;" name="usermsg" type="text" id="usermsg" size="63" />
-        <input style="border-radius: 0px 0px 10px 0px;" name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+        <input id="textM" type="text" size="63" />
+        <input id="enterM" name="submitmsg" type="submit" value="Send" />
       </div>
     </div>
-    <div class=col-xs-2></div>
   </body>
 </html>

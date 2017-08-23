@@ -20,16 +20,15 @@
 
 </head>
 
-<body><br><br><br><br>
-   <div class=col-xs-2></div>
+<body>
 	   <div class=col-xs-2>
 			 <ul>
-				 <li><a href="chat.php"><h4>Chat</h4></a></li>
-	       <li><a class="active" href=""><h4>Audio</h4></a></li>
-				 <li><a href="options.php"><h4>Options</h4></a></li>
+				 <li><a href="chat.php">Chat</a></li>
+	       <li><a class="active" href="">Audio</a></li>
+				 <li><a href="options.php">Options</a></li>
 	      </ul>
 	   </div>
-   <div class=col-xs-6>
+  <div class="col-xs-6">
    <div class="Smenu">
    	   <table>
        <tr>
@@ -175,7 +174,7 @@
         </td>
       </tr>
     </table>
-   </div>
-   <div class=col-xs-2></div>
+    </div>
+  </div>
 </body>
 </html>

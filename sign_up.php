@@ -42,7 +42,7 @@
                 </p>
                 <p class="change_link">
                     Already a member ?
-                    <a href="sign_in.php" class="to_subscribe"> Go and log in </a>
+                    <a href="index.html" class="to_subscribe"> Go and log in </a>
                 </p>
             </form>
         </div>
