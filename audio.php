@@ -31,14 +31,6 @@
   <div class="col-xs-6">
    <div class="Smenu">
    	   <table>
-       <tr>
-          <td>
-            <p>I Don't Want To Set The World On Fire<br/>The Ink Spots</p>
-          <audio controls="controls">
-            <source src="audio/music/IDWTSAWOF.wav" type="audio/wav">
-          </audio>
-          </td>
-      </tr>
       <tr>
         <td>
           <p>Maybe<br/>The Ink Spots</p>
