@@ -27,6 +27,7 @@
     <a class="hiddenanchor" id="tologin"></a>
     <div id="subscribe" class="animate form">
             <form  action="error.php" method="POST">
+            <div class="enter">
                 <h1> Sign up </h1>
                 <p>
                     <input id="username" name="username" required="required" type="text" placeholder="Your username" />
@@ -38,12 +39,13 @@
                     <input id="password2" name="password2" required="required" type="password" placeholder="Confirm password"/>
                 </p>
                 <p class="signin button">
-                    <button name="submit" class = "btn-lg">Sign up</button>
-                </p>
+                    <input id="sumbit" class = "sumbit" type="submit" value = "Sing up"/></p>
+                      <p class="change_link">
                 <p class="change_link">
                     Already a member ?
                     <a href="index.html" class="to_subscribe"> Go and log in </a>
                 </p>
+                </div>
             </form>
         </div>
     </div>
