@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <div class="Ssign"><br><br><br><br><br><br>
+    <div class="Ssign">
     <div id="container_demo" >
     <a class="hiddenanchor" id="tosubscribe"></a>
     <a class="hiddenanchor" id="tologin"></a>
