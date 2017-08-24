@@ -26,7 +26,7 @@
     <a class="hiddenanchor" id="tosubscribe"></a>
     <a class="hiddenanchor" id="tologin"></a>
     <div id="subscribe" class="animate form">
-            <form  action="error.php" method="POST">
+            <form action="registered.html" method="POST">
             <div class="enter">
                 <h1> Sign up </h1>
                 <p>

@@ -7,6 +7,9 @@ body {
     background-attachment: fixed;
     text-align: center;
 }
+.green_text{
+  color: #73ce81;
+}
 .enter {
   margin-top: 100px;
 }
