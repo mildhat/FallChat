@@ -7,239 +7,140 @@ body {
     background-attachment: fixed;
     text-align: center;
 }
-.green_text{
-  color: #73ce81;
-}
-.enter {
-  margin-top: 100px;
-}
-.ss1 button {
-    margin: 90px 0px 0px 0px;
-    background-color: transparent;
-    color: #73ce81;
-    border-style: solid;
-    border-radius: 10px;
-    text-align: center;
-    border-color: #73ce81;
-    width: 100px;
-    height: 40px;
-}
-.Ssign {
-  color: #73ce81;
-}
-.Ssign input {
-  text-align: center;
-    background-color: transparent;
-  color: #73ce81;
-  border-color: #73ce81;
-  border-style: solid;
-  border: 1px solid #73ce81;
-  padding: 15px;
-  border-radius: 50px 50px 50px 50px;
-}
+.active{
+    color: black;
+    background-color: gold;
+} 
 ul {
     list-style-type: none;
-    text-align: left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: 3px solid gold;
 }
-.active{
-    color: #73ce81;
-    background-color: #2a7d37; 
-    border-radius: 5px;
-} 
-li { 
-    margin: 50px 0px 107px 0px;
+li {
+    float: left;
+}
+li a {
+   border-left: 1px solid gold;
+   transition: 0.5s all; 
+    display: block;
+    color: white;
     text-align: center;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #73ce81; 
-}
-li a{
-     color: #73ce81;
-     display: block;
-     padding: 10px 15px;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 li a:hover {
-     background-color: #73ce81;
-     color: #2a7d37;
+    color: gold;
+    background-color: #111;
+}
+#hi {
+  float: right;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    width: 146px;
+    border-top: 1px solid gold;
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
 }
 .Smenu {
+  margin-top: 80px;
+   height: 400px;
    width: 100%;
-   color: #73ce81;
-   border: 3px solid #73ce81;
-   border-radius: 10px;
+   color: gold;
+   border: 3px solid gold;
    text-align: left;
-   margin: 50px 0px 0px 0px;
    overflow-x: none;
    overflow-y: auto;
-}
-audio {
-   margin: 0px 0px 4px 20px; 
 }
 .Smenu p {
     margin: 10px 0px 0px 20px;
 }
 .inp input {
     background-color: transparent;
-    color: #73ce81;
-    border-color: #73ce81;
+    color: gold;
+    border-color: gold;
     border-style: solid;
 }
 .Smenuc {
+   margin-top: 80px;
+   height: 400px; 
    width: 100%;
-   color: #73ce81;
-   border: 3px solid #73ce81;
-   border-radius: 10px 10px 0px 0px;
+   color: gold;
+   border: 3px solid gold;
    text-align: left;
    overflow-x: none;
    overflow-y: auto;
 }
-#sumbit {
-  background-color: #73ce81;
+#textM {
+  height: 40px;
+  width: 80%;
+}
+#enterM {
+  height: 40px;
+  width: 19%;
+}
+#login {
+  color: gold;
+}
+#username {
+  border-radius: 30px 30px 0px 0px;
+}
+#password {
+  border-radius: 0px 0px 30px 30px;
+}
+.input {
+  margin-bottom: -10px;
+  background-color: transparent;
   border-style: solid;
-  color: black;
-  border-color: #73ce81;
-  border-radius: 50px 50px 50px 50px;
+  color: gold;
+  text-align: center;
+  height: 35px;
+  border-color: gold;
 }
-@media screen and (max-width: 450px){
-  .enter {
-  top: 50px;
-  }
-  .col-xs-2 {
-    right: 25px;
-    width: 45%;
-  }
-  .col-xs-6{
-    right: 25px;
-    width: 55%;
-  }
-  .Smenu{
-    margin-top: 50px;
-    height: 440px;
-  }
-  .Smenuc{
-    margin-top: 50px;
-    height: 390px;
-  }
-  ul {
-  	width: 100%;
-    margin-top: 30px; 
-  }
-  li a {
-    padding: 22px;
-    font-size: 130%;
-  }
-  li {
- 	text-align: left; 	
-  } 
-  #textM { 
-    width: 70%;
-    height: 39px;
-    border-radius: 0px 0px 0px 10px;
-  }
-  #enterM {
-    height: 39px;
-    width: 27%;
-    border-radius: 0px 0px 10px 0px;
-  }
-
+#sumbit {
+  width: 120px;
+  height: 35px;
+  background-color: transparent;
+  border-style: solid;
+  color: gold;
+  border-color: gold;
+  border-radius: 0px 0px 30px 30px;
 }
-@media screen and (min-width: 451px) and (max-width: 1050px){
-  .enter {
-  top: 20px;
- }
-  .Smenuc{
-    margin-top: 20px;
-    height: 304px;
-  }
-  .Smenu{
-    margin-top: 20px;
-    height: 340px;
-  }
-  .col-xs-2 {
-    right: 10px;
-    width: 30%;
-  }
-  .col-xs-6{
-    right: 10px;
-    width: 70%;
-  }
-  li {
-    margin: 0px 0px 107px 0px;
-  }
-  ul {
-    margin-top: 20px; 
-  }
-  li a { 
-    padding: 3px 0px;
-    font-size:150%;
-  }
-  #textM {
-    width: 85%;
-    border-radius: 0px 0px 0px 10px;
-  }
-  #enterM {
-    width: 14%;
-    border-radius: 0px 0px 10px 0px;
-  }
+#email {
+  border-radius: 30px 30px 0px 0px;
 }
-@media screen and (min-width: 1050px) and (max-width: 1700px){
-  .col-xs-2 {
-    margin-left: 200px;
-  }
-  .Smenu{
-    margin-top: 130px;
-    height: 412px;
-  }
-  .Smenuc{
-    margin-top: 130px;
-    height: 375px;
-  }
-  ul {
-    margin-top: 130px; 
-  }
-  li a {
-    padding: 15px 10px;
-    font-size: 150%;
-  }
-  .inp input {
-    margin-top: 1px;
-  }
-  #textM {
-    width: 85%;
-    border-radius: 0px 0px 0px 10px;
-  }
-  #enterM {
-    border-radius: 0px 0px 10px 0px;
-    width: 14%
-  }
+#password2 {
+  border-radius: 0px 0px 30px 30px;
 }
-@media screen and (min-width: 1701px){
-  .col-xs-2 {
-    margin-left: 300px;
-  }
-  .Smenu{
-    margin-top: 200px;;
-    height: 562px;
-  }
-  .Smenuc{
-    margin-top: 200px;
-    height: 510px;
-  }
-  ul {
-    margin-top: 200px; 
-  }
-  li a { 
-    padding: 35px 0px;
-    font-size: 200%;
-  }
-  #textM {
-    width: 85%;
-    border-radius: 0px 0px 0px 10px;
-    height: 42px;
-  }
-  #enterM {
-    border-radius: 0px 0px 10px 0px;
-    width: 14%;
-    height: 42px;
-   }
+.error {
+  font-size: 130%;
+  margin-top: 100px;
+  color: red;
+}
+#welcome {
+  font-size: 150%;
+  margin-top: 130px;
+  color: gold;
+}
+a {
+  color: yellow;
 }
