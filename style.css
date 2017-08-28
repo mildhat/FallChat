@@ -56,10 +56,16 @@ ul.submenu > li > a {
     text-decoration: none;
 }
 ul.submenu > li > a:hover {
+    color: gold;
+    background-color: #111;
     text-decoration: underline;
 }
 ul.menu > li:hover > ul.submenu {
     display: block;
+}
+ul.submenu > li > a.active {
+  color: black;
+  background-color: gold;
 }
 .Smenu {
   margin-top: 80px;
@@ -91,10 +97,12 @@ ul.menu > li:hover > ul.submenu {
    overflow-y: auto;
 }
 #textM {
+  float: left;
   height: 40px;
   width: 80%;
 }
 #enterM {
+  float: right;
   height: 40px;
   width: 19%;
 }

@@ -7,12 +7,11 @@
 <?php include("includes/header.php"); ?>
       <ul class="menu">
       <li><a href="chat.php">Chat</a></li>
-      <li><a class="active" href="">Options</a></li>
       <li id="hi"><a>Welcome, <span><?php echo $_SESSION['session_username'];?>! </span></a>
         <ul class="submenu">
           <li><a href="#">choto</a></li>
-          <li><a href="#">choto</a></li>
-          <li><a href="logout.php">Out</a></li>
+          <li><a class="active" href="">Options</a></li>
+          <li><a href="logout.php">Sign out</a></li>
         </ul>
       </li>
     </ul>
