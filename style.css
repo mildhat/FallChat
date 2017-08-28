@@ -41,13 +41,13 @@ li a:hover {
 ul.submenu {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: #333;
 }
 ul.submenu > li {
+	width: 100%;
     display: block;
 }
 ul.submenu > li > a {
-    width: 146px;
     border-top: 1px solid gold;
     display: block;
     padding: 10px;
