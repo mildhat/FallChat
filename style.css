@@ -7,13 +7,6 @@ body {
     background-attachment: fixed;
     text-align: center;
 }
-#messages
-{
-  width:500px;
-  height:400px;
-  overflow: hidden;
-  border:3px solid gold;
-}
 .active{
     color: black;
     background-color: gold;
@@ -74,7 +67,7 @@ ul.submenu > li > a.active {
   color: black;
   background-color: gold;
 }
-.Smenu {
+#messages {
   margin-top: 80px;
    height: 400px;
    width: 100%;
@@ -103,7 +96,7 @@ ul.submenu > li > a.active {
    overflow-x: none;
    overflow-y: auto;
 }
-#textM {
+#mess_to_send {
   float: left;
   height: 40px;
   width: 80%;

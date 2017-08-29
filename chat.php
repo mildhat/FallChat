@@ -6,15 +6,6 @@
 ?>
 <?php include("includes/header.php"); ?>
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<style>
-#messages
-{
-  width:500px;
-  height:400px;
-  overflow: hidden;
-  border:3px solid gold;
-}
-</style>
 <script type="text/javascript">
   //Загружаем библиотеку JQuery
   google.load("jquery", "1.3.2");
@@ -72,22 +63,18 @@
       </li>
     </ul>
     <div class="col-xs-3"></div>
-        <table>
-<tr>
-<td>
-<div id="messages">
-</div>
-</td>
-</tr>
-<tr>
-<td>
-<form action="javascript:send();">
-<input type="text" id="mess_to_send">
-<input type="button" value="Send">
-</form>
-</td>
-</tr>
-</table>
+
+    <div class="col-xs-6">
+      <div class="inp">
+        <p id="messages"> 
+        </p>
+        <form action="javascript:send();">
+        <input id="mess_to_send" type="text" size="63" />
+        <input id="enterM" name="submitmsg" type="submit" value="Send" />
+        </form>
+      </div>
+      </div>
+
       <script>
 //При загрузке страницы подгружаем сообщения
 load_messes();
