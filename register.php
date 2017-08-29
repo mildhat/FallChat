@@ -11,8 +11,8 @@
       
     
          
-      $query = mysql_query("SELECT * FROM userinfo WHERE username = '".$username."'");
-      $numrows = mysql_num_rows($query);
+      $query = mysqli_query($con, "SELECT * FROM userinfo WHERE username = '".$username."'");
+      $numrows = mysqli_num_rows($query);
       
       if($numrows == 0)
       {
@@ -20,7 +20,7 @@
             (email, username,password) 
             VALUES('$email', '$username', '$password')";
     
-      $result = mysql_query($sql);
+      $result = mysqli_query($con, $sql);
     
     
       if($result){
