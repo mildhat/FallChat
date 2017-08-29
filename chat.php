@@ -6,6 +6,15 @@
 ?>
 <?php include("includes/header.php"); ?>
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<style>
+#messages
+{
+  width:500px;
+  height:400px;
+  overflow: hidden;
+  border:3px solid gold;
+}
+</style>
 <script type="text/javascript">
   //Загружаем библиотеку JQuery
   google.load("jquery", "1.3.2");
