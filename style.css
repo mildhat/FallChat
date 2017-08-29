@@ -7,6 +7,13 @@ body {
     background-attachment: fixed;
     text-align: center;
 }
+#messages
+{
+  width:500px;
+  height:400px;
+  overflow: hidden;
+  border:3px solid gold;
+}
 .active{
     color: black;
     background-color: gold;
